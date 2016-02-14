@@ -1,0 +1,35 @@
+<header class="masthead">
+  <h1 class="masthead-heading">Tweetful</h1>
+  <p class="masthead-intro">Making The Internet a Little More Thoughtful</p>
+</header>
+
+<section class="info">  
+  <header>
+    <h2>About Tweetful</h2>
+  </header>
+  <p>
+    Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum.
+  </p>
+</section>
+
+<section class="info">  
+  <header>
+    <h2>What Makes Us Different</h2>
+  </header>
+  <p>
+    Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Sed posuere consectetur est at lobortis.
+  <p>
+</section>
+
+<section class="info">  
+  <header>
+    <h2>Company History<h2>
+  </header>
+  <p>
+    Vivamus sagittus lacus vel augue laoreet auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac
+  </p>
+  </section>
+
+<footer class="email">
+  Contact us: <span><a href="admin@tweetful.io"></span>
+</footer>

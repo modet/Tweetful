@@ -10,7 +10,15 @@ class FollowsController < ApplicationController
     @users = User.all_except(current_user)
   end
 
-
+  <% @users.each do |user| %>
+    <li>
+      <%= content_tag :strong, user.name, :class => 'pull-left text-middle' %>
+      <%= content_tag :span, "@" + user.username, :class => 'text-muted pad-10 text-middle' %>
+      <%= follow_link(user) %>
+      <div class="clearfix"></div>
+      <hr>
+    </li>
+  <% end %>
 
   # POST /follows
   #
