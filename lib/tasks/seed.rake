@@ -1,4 +1,4 @@
-require 'ffaker'
+require 'ffaker', :require => false
 
 namespace :seed do
   desc "Create 5 tweets for each user"
