@@ -1,4 +1,3 @@
-require 'faker'
 
 namespace :seed do
   desc "Create 5 tweets for each user"
